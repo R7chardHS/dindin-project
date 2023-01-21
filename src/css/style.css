@@ -25,6 +25,11 @@
     padding-left: 82px;
 }
 
+.container>div>div:not(:first-of-type) {
+    border-top: 5px solid #C4C4C4;
+    padding-top: 108px;
+}
+
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 60px;
@@ -52,6 +57,7 @@ h2 {
 
 .box-course-description {
     display: flex;
+    margin-bottom: 58px;
 }
 
 .box-course-description>div {
