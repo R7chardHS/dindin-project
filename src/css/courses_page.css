@@ -104,6 +104,7 @@ a {
        word-wrap: break-word;
 
     }
+
     h2 {
         font-size: 32px;
     }
@@ -133,4 +134,57 @@ a {
     .footer {
         height: 107px;
     }
+}
+
+
+@media (max-width: 767px){
+    .description {
+       max-width: 150px;
+       font-size: 10px;
+       margin-top: 15px;
+       margin-bottom: 20px;
+       word-wrap: break-word;
+    }
+
+    h2 {    
+        font-size: 22px;
+    }
+    
+    img {
+        height: 200px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+    
+    .container {
+        width: 100%;
+        margin-top: 48px;
+        margin-bottom: 120px;
+        padding-left: 0;
+    }
+
+    .container>div:not(:first-of-type) {
+        border-top: 5px solid #C4C4C4;
+        padding-top: 28px;
+        margin-right: 0;
+    }
+
+    .button {
+        font-size: 15px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 116px;
+    }
+
+    .box-course-description {
+        margin-bottom: 28px;
+        padding-left: 0;
+    }
+    
+    .box-course-description>div {
+        margin-left: 10px;
+    }
+    
 }

@@ -174,3 +174,78 @@ img {
         margin: 4px 0px;
     }
 }
+
+
+@media (max-width: 767px){
+    .description {
+       max-width: 200px;
+       font-size: 12px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       word-wrap: break-word;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    video {
+        margin-right: 13px;
+        height: 115px;
+    }
+
+    img {
+        height: 80px;
+        width: 180px;
+        margin-left: 0;
+    }
+        
+    .container {
+        margin-top: 44px;
+        margin-bottom: 100px;
+        padding-left: 0;
+    }
+
+    .head {
+        height: 57px;
+    }
+
+    .footer {
+        height: 77px;
+    }
+
+    .video-class>div p {
+        Width: 150px;
+        font-size: 10px;
+    }
+    
+    .box-course-description {
+        margin-bottom: 14px;
+        height: 400px;
+    }
+
+    .video-class {
+        padding-top: 25px;
+        margin-right: 0;
+        margin-bottom: 33px;
+    }
+    
+    .video-classes>div:not(:first-of-type) {
+        border-top: 3px solid #C4C4C4;
+        padding-top: 25px;
+    }    
+
+    .container>div {
+        padding-top: 25px;
+        padding-left: 0;
+    }
+
+    .video-class>div>p {
+        margin: 4px 0px;
+    }
+}
